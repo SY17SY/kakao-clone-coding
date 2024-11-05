@@ -1,5 +1,5 @@
 .welcome-header {
-    margin: 90px 0px;
+    margin: 16vh 0vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -7,24 +7,25 @@
     font-weight:600;
 }
 .welcome-header__title {
-    margin-bottom: 45px;
-    font-size: 25px;
+    margin-bottom: 7vh;
+    font-size: 23px;
 }
 .welcome-header__text {
-    width: 60%;
+    width: 80%;
+    font-size: 15px;
+    padding-bottom: 5px;
     opacity: 0.6;
 }
 
 #login-form {
     display: flex;
     flex-direction: column;
-    margin: 0px 30px;
+    margin: 0vh 5vw;
 }
 #login-form input {
-    padding: 15px 0px;
-    border: none;
-    font-size: 18px;
-    margin-bottom: 20px;
+    padding: 2vh 0vw;
+    font-size: 15px;
+    margin-bottom: 3vh;
 }
 #login-form input:not([type="submit"]) {
     border-bottom: 1px solid rgba(0,0,0, 0.2);
@@ -38,13 +39,12 @@
 }
 #login-form input[type="submit"] {
     background-color: var(--yellow);
+    color: var(--black);
     cursor: pointer;
-    padding: 20px 0px;
+    padding: 4vh 0vw;
     border-radius: 5px;
 }
 #login-form a {
     text-align: center;
-    text-decoration: none;
-    color: inherit;
     font-size: 13px;
 }

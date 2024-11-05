@@ -3,19 +3,20 @@
     bottom:0;
     width: 100%;
     background-color: #f9f9fa;
-    padding: 20px 40px;
     box-sizing: border-box;
     border-top: 1px solid rgba(0,0,0, 0.3)
 }
 
 .nav__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav__link {
-    color: #2e363e;
+    color: var(--black);
     position: relative;
+    display: block;
+    padding: 20px 30px;
 }
 
 .nav__notification {
@@ -28,10 +29,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 50%;
     position: absolute;
-    left: 10px;
-    bottom: 10px;
+    right: 20px;
+    top: 12px;
 }
 
 .nav__new {
@@ -43,6 +44,6 @@
     align-items: center;
     border-radius: 50%;
     position: absolute;
-    left: 20px;
-    bottom: 15px;
+    right: 22px;
+    top: 17px;
 }
